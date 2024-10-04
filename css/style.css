@@ -54,8 +54,44 @@ nav a img{
     padding-left: var(--nav-width);
     margin-left: -20px;
 }
-.carousel-sec{
-    /* background-image: url(../assets/images/bg-img1.jpeg); */
-    background-color: green;
+
+/* CAROUSEL */
+
+.c-item-1{
+    background-image: url(../assets/images/carousel1.jpg);
     height: 100vh;
+    background-size:cover ;
+}
+.c-item-2{
+    background-image: url(../assets/images/carousel2.jpg);
+    height: 100vh;
+    background-size:cover ;
+}
+.slide-1-content{
+    position: absolute;
+    bottom: 200px;
+    left: 140px;
+}
+.slide-1-content h2{
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    font-weight: 900;
+}
+.slide-1-content button{
+    margin-top: 80px;
+    color: white;
+    border-radius: 0;
+}
+.slide-2-content{
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+}
+.slide-2-content h2{
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 8px 6px 2px rgba(0, 0, 0, 0.23);
 }
