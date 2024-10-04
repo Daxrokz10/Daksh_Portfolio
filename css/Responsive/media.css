@@ -52,7 +52,9 @@
 /* L */
 
 @media (max-width:1199px){
-    
+    .main-body{
+        margin-left: -12px;
+    }
 
 }
 

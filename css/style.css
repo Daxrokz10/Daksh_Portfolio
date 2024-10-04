@@ -56,10 +56,10 @@ nav a img{
 
 .main-body{
     flex-grow: 1; /* Add this line */
-    border: 2px solid black;
     height: 300vh;
     padding-left: var(--nav-width);
     margin-left: -20px;
+    overflow-y: hidden;
 }
 
 /* CAROUSEL */
@@ -68,11 +68,13 @@ nav a img{
     background-image: url(../assets/images/carousel1.jpg);
     height: 100vh;
     background-size:cover ;
+    overflow-y: hidden;
 }
 .c-item-2{
     background-image: url(../assets/images/carousel2.jpg);
     height: 100vh;
     background-size:cover ;
+    overflow-y: hidden;
 }
 .slide-1-content{
     position: absolute;
