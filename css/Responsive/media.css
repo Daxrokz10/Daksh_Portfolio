@@ -1,0 +1,61 @@
+/* XXL */
+
+@media (max-width:1920px){
+    .main-body{
+        flex-grow: 1; /* Add this line */
+        border: 2px solid black;
+        height: 300vh;
+        padding-left: 21%;
+    }
+}
+
+@media (max-width:1520px){
+    .main-body{
+        margin-left: -19px;
+    }
+}
+
+
+/* XL */
+
+@media (max-width:1399px){
+    .main-body{
+        margin-left: -17px;
+    }
+}
+
+/* L */
+
+@media (max-width:1199px){
+    .main-body{
+        margin-left: -15px;
+    }
+}
+
+/* MD */
+
+@media (max-width:991px){
+    .main-body{
+        margin-left: -13px;
+    }
+}
+
+/* SM */
+
+@media (max-width:768px){
+    .main-body{
+        margin-left: -11px;
+    }
+}
+
+/* XS */
+
+@media (max-width:576px){
+
+}
+
+/* XXS */
+
+@media (max-width:410px){
+
+}
