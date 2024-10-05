@@ -53,14 +53,23 @@ nav li{
     margin-top: 0px;
     font-size: 24px;
 }
-nav li a:hover{
-    text-decoration: underline;
-}
 nav a img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
+.nav-link.active { /*adding the scrollspy active tab under the nav tabs */
+    background-color: transparent;
+    border-bottom: 2px solid #bb5b5b; 
+}
+.nav-box2 .nav-link.active{
+    background-color: transparent;
+    border: none;
+}
+.nav-box2 a:hover{
+    text-decoration: underline;
+}
+
 
 .main-body{
     flex-grow: 1; /* Add this line */
