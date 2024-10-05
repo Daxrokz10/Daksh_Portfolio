@@ -19,7 +19,14 @@ body{
     display: flex; 
 }
 
-.nav-box{
+.nav-box1{
+    height: 100vh;
+    width: var(--nav-width);
+    background-color: whitesmoke;
+}
+.nav-box2{
+    margin-top: -20px;
+    margin-left: -12px;
     height: 100vh;
     width: var(--nav-width);
     background-color: whitesmoke;

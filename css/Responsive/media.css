@@ -1,7 +1,12 @@
 /* XXL */
 
 @media (max-width:1920px){
-
+    .nav-box1{
+        display: block;
+      }
+    .offcanvas-btn{
+        display: none;
+    }  
 }
 
 @media (max-width:1520px){
@@ -48,7 +53,20 @@
 /* MD */
 
 @media (max-width:991px){
-
+    .nav-box1{
+        display: none;
+      }
+      .main-body{
+        margin-left: -258px;
+      }
+      .offcanvas-btn{
+        display: block;
+        margin-left: 50px;
+        margin-top: 20px;
+      }
+      .offcanvas{
+        width: 20%!important;
+      }  
 }
 
 /* SM */

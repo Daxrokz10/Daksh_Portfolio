@@ -18,7 +18,7 @@
     <div class="container-custom">
       <div class="row">
         <div class="col-3">
-          <section class="nav-box position-fixed">
+          <section class="nav-box1 position-fixed">
             <nav class="navbar navbar-expand-lg bg-transparent d-flex flex-column align-items-center">
               
                 <a class="navbar-brand" href="#">
@@ -31,7 +31,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse-horizontal collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav d-flex flex-column text-center">
                     <li class="nav-item">
                       <a class="nav-link fw-lighter active" aria-current="page" href="#home">Home</a>
@@ -70,6 +70,62 @@
 
         <div class="col-9">
           <section class="main-body">
+
+            <button class="offcanvas-btn btn bg-transparent btn-dark position-fixed z-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling"><i class="ri-menu-line"></i></button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+           
+            <div class="offcanvas-body">
+              <button type="button" class="btn-close position-fixed z-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <section class="nav-box2 position-fixed">
+                <nav class="navbar navbar-expand-lg navbar-expand-sm bg-transparent d-flex flex-column align-items-center">
+                  
+                    <a class="navbar-brand" href="#">
+                      <img src="./assets/images/profile-photo.jpeg" alt="">
+                    </a>
+                    <a class="navbar-brand-2 text-decoration-none text-center" href="#">
+                      <h1>Daksh Gagnani</h1>
+                      <p><mark class="mark bg-transparent text-danger">Full Stack</mark> Developer</p>
+                    </a>
+
+                    <div id="navbarNavDropdown">
+                      <ul class="navbar-nav d-flex flex-column text-center">
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Education</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link fw-lighter" href="#">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                </nav>
+              </section>
+            </div>
+          </div>
+
             <section class="carousel-sec" id="home">
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
