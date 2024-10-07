@@ -72,13 +72,60 @@
 /* SM */
 
 @media (max-width:768px){
+  
+  /* ABOUT */
+  
+  .about-content{
+    /* max-width: 700px; */
+    margin-left: 100px;
+  }
 
+  /* SERVICE */
+
+  .service-content{
+    /* max-width: 700px; */
+    margin-left: 100px;
+  }
+
+  /* STICKY-BG */
+
+  .sticky-bg-stats{
+    margin-left: 150px;
+  }
+
+
+  /* SKILLS */
+
+  .skill-content-text{
+    /* max-width: 700px; */
+    margin-left: 100px;
+  }
 }
 
 /* XS */
 
 @media (max-width:576px){
+  
+  /* ABOUT  */
 
+  .about-content{
+    /* max-width: 450px; */
+    margin-left: 150px;
+  }
+
+  /* SERVICE */
+
+  .service-content{
+    /* max-width: 450px; */
+    margin-left: 150px;
+  }
+
+  /* SKILLS */
+
+  .skill-content-text{
+    /* max-width: 450px; */
+    margin-left: 150px;
+  }
 }
 
 /* XXS */
