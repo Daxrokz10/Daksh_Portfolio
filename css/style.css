@@ -183,3 +183,72 @@ nav a img{
 .about .cb-4{
     border-bottom: 2px solid #d400d4;
 }
+
+/* SERVICE */
+
+.service-content{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.service h4{
+    margin-top: 80px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: rgb(175, 174, 174);
+    font-size: 12px;
+}
+.service .service-content h2{
+    font-weight: 800;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin-top: 30px;
+}
+.service p{
+    margin-top: 100px;
+}
+.service .service-box{
+    height: 350px;
+    width: 270px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.service i{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.service .ri-bootstrap-line{
+    color: rgb(212, 0, 212);
+}
+.service .service-box h4{
+    letter-spacing: 0px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+    color: #000;
+}
+.service .cb-1{
+    border-bottom: 2px solid #0d6efd;
+}
+.service .cb-2{
+    border-bottom: 2px solid #dc3545;
+}
+.service .cb-3{
+    border-bottom: 2px solid #ffc107;
+}
+
+
+/* STATS */
+
+.sticky-bg-stats{
+    background-image: linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)) , url(../assets/images/stats-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
