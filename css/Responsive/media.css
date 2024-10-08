@@ -53,20 +53,40 @@
 /* MD */
 
 @media (max-width:991px){
-    .nav-box1{
-        display: none;
-      }
-      .main-body{
-        margin-left: -258px;
-      }
-      .offcanvas-btn{
-        display: block;
-        margin-left: 50px;
-        margin-top: 20px;
-      }
-      .offcanvas{
-        width: 20%!important;
-      }  
+    
+  /* NAV */
+
+.nav-box1{
+    display: none;
+ }
+  /* MAIN */
+
+.main-body{
+  margin-left: -258px;
+}
+
+/* OFFCANVAS */
+.offcanvas-btn{
+  display: block;
+  position: sticky;
+  top: 40px;
+  left: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: black!important;
+}
+.offcanvas{
+  width: 20%!important;
+}  
+
+  /* CAROUSEL */
+
+.c-item-1{
+  background-position: center;
+}
+.c-item-2{
+  background-position: center;
+}
 }
 
 /* SM */
@@ -76,14 +96,12 @@
   /* ABOUT */
   
   .about-content{
-    /* max-width: 700px; */
     margin-left: 100px;
   }
 
   /* SERVICE */
 
   .service-content{
-    /* max-width: 700px; */
     margin-left: 100px;
   }
 
@@ -97,7 +115,6 @@
   /* SKILLS */
 
   .skill-content-text{
-    /* max-width: 700px; */
     margin-left: 100px;
   }
   .skill-progress .row{
@@ -106,6 +123,29 @@
   }
   .col-xs-12{
     width: 100%;
+  }
+
+  /* WORK */
+  .col-xs-6{
+    width: 50%;
+  }
+  .work button{
+    margin-left: 200px
+  }
+  .work-content-text{
+    /* max-width: 700px; */
+    margin-left: 100px;
+  }
+  .work-snapshots embed{
+    width: 725px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+  /* CONTACT */
+
+  .contact .row{
+    margin-left: 180px;
   }
 }
 
@@ -116,14 +156,12 @@
   /* ABOUT  */
 
   .about-content{
-    /* max-width: 450px; */
     margin-left: 150px;
   }
 
   /* SERVICE */
 
   .service-content{
-    /* max-width: 450px; */
     margin-left: 150px;
   }
 
