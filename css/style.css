@@ -10,7 +10,8 @@
     --accent-color: #000;  /*Added a accent color */
 }
 body{
-    font-family: "Quicksand", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+
     overflow-x: hidden;
 }
 .container-custom{
@@ -53,14 +54,23 @@ nav li{
     margin-top: 0px;
     font-size: 24px;
 }
+nav mark{
+    color: #37b873!important;
+}
 nav a img{
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
+nav a i{
+    font-size: 30px;
+}
+nav .icon-ss{
+    text-decoration: none;
+}
 .nav-link.active { /*adding the scrollspy active tab under the nav tabs */
     background-color: transparent;
-    border-bottom: 2px solid #bb5b5b; 
+    border-bottom: 2px solid #50d890; 
 }
 .nav-box2 .nav-link.active{
     background-color: transparent;
@@ -139,7 +149,12 @@ nav a img{
 }
 .about .about-content h2{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -204,7 +219,12 @@ nav a img{
 }
 .service .service-content h2{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -286,7 +306,12 @@ nav a img{
 }
 .skills .skill-content h2{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -327,11 +352,20 @@ nav a img{
     color: rgb(175, 174, 174);
     font-size: 12px;
 }
-.education .education-content h2{
+.education .education-content .my-quali{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
+    margin-top: 30px;
+}
+.education .accordion-item h2{
+    font-family: "Quicksand", sans-serif;
     margin-top: 30px;
 }
 .accordion-item , .accordion-item button{
@@ -487,7 +521,12 @@ input::placeholder {
 }
 .work .work-content h2{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -516,7 +555,12 @@ input::placeholder {
 }
 .contact .contact-content h2{
     font-weight: 800;
-    font-family: 'Playfair Display';
+    font-family: "Josefin Sans", sans-serif;
+    color:transparent;
+     text-shadow:3px 3px 0 #000000;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -543,4 +587,5 @@ input::placeholder {
 }
 .contact button{
     margin-top: 10px;
+    background-color: #50d890;
 }
