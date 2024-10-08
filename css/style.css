@@ -345,7 +345,7 @@ nav a img{
 .container-exp {
   background: #232931;
   width: 90%;
-  height: 500px;
+  height: 90vh;
   margin: 0 auto;
   position: relative;
   margin-top: 10%;
@@ -379,7 +379,7 @@ nav a img{
 }
 
 .rb-container ul.rb {
-  margin: 2.5em 0;
+  margin: 0.5em 0;
   padding: 0;
   display: inline-block;
 }
