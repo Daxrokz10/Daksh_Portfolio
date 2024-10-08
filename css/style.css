@@ -305,6 +305,12 @@ nav a img{
 .skill-progress h3{
     font-size: 20px;
     font-weight: 300;
+    display: inline-block;
+}
+.skill-progress img{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 /* EDUCATION */
@@ -460,4 +466,33 @@ ul.rb li .timestamp {
 input::placeholder {
   padding: 5em 5em 1em 1em;
   color: #50d890;
+}
+
+
+/* WORK */
+
+.work{
+    padding-bottom: 100px;
+}
+.work-content{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.work h4{
+    margin-top: 50px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: rgb(175, 174, 174);
+    font-size: 12px;
+}
+.work .work-content h2{
+    font-weight: 800;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin-top: 30px;
+}
+.work-snapshots embed{
+    width: 500px;
+    height: 400px;
 }
