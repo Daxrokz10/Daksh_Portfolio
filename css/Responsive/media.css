@@ -105,11 +105,15 @@
   .service-content{
     margin-left: 100px;
   }
+  .service .cb-3{
+    margin-left: 55%;
+}
 
   /* STICKY-BG */
 
   .sticky-bg-stats{
-    margin-left: 150px;
+    margin-left: 40px;
+    margin-top: 0px;
   }
 
 
@@ -148,6 +152,25 @@
   .contact .row{
     margin-left: 180px;
   }
+
+  /* EDUCATION */
+
+  .education-content-text{
+    margin-left: 100px;
+  }
+  .accordion-header{
+    background-color: black;
+  }
+  .accordion-item {
+    max-width: 400px;
+    margin-left: 200px;
+  }
+
+  /* CONTACT */
+
+  .contact-content-text{
+    margin-left: 100px;
+  }
 }
 
 /* XS */
@@ -165,6 +188,19 @@
   .service-content{
     margin-left: 150px;
   }
+  .col-xxs-12{
+    width: 100%;
+  }
+  .service .cb-1{
+    margin-left: 100px;
+}
+.service .cb-2{
+   margin-left: 100px;
+}
+.service .cb-3{
+    margin-left: 100px;
+}
+
 
   /* SKILLS */
 
@@ -178,6 +214,12 @@
   }
   .col-xs-12{
     width: 100%;
+  }
+
+  /* EDUCATION */
+
+  .accordion-item {
+    margin-left: 150px;
   }
 
 }

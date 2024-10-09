@@ -209,7 +209,9 @@ nav .icon-ss{
 }
 
 /* SERVICE */
-
+.service{
+    background-color: black;
+}
 .service-content{
     margin-left: 30px;
     padding-top: 5px;
@@ -291,7 +293,7 @@ nav .icon-ss{
     background-attachment: fixed;
     height: 300px;
     margin-bottom: 100px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .sticky-bg-stats li{
     margin-top: 100px;
@@ -401,7 +403,7 @@ nav .icon-ss{
 
 
 .container-exp {
-  background: #232931;
+  background: #0c0d0e;
   width: 90%;
   height: 90vh;
   margin: 0 auto;
