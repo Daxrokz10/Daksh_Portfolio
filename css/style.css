@@ -13,6 +13,39 @@ body{
     font-family: "Josefin Sans", sans-serif;
     overflow-x: hidden;
 }
+
+/* SCROLLBAR */
+
+
+body {
+    --sb-track-color: #114b2c;
+    --sb-thumb-color: #50d890;
+    --sb-size: 14px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 3px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 3px;
+    
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+
+
 .container-custom{
     margin: auto;
     max-width: 1800px;
@@ -659,4 +692,10 @@ input::placeholder {
 .contact-icon i{
     font-size: 44px;
     line-height: 100px;
+}
+
+/* EFFECTS AND TRANSITIONS */
+
+.hover-effect-h4:hover{
+    color: #50d890;
 }
