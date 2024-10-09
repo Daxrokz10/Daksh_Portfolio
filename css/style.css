@@ -22,14 +22,14 @@ body{
 .nav-box1{
     height: 100vh;
     width: var(--nav-width);
-    background-color: whitesmoke;
+    background-color: #50d890;
 }
 .nav-box2{
     margin-top: -20px;
     margin-left: -12px;
     height: 100vh;
     width: var(--nav-width);
-    background-color: whitesmoke;
+    background-color: #50d890;
 }
 
 .navbar-brand-2 h1{
@@ -37,14 +37,14 @@ body{
     font-family: 'Playfair Display';
     font-weight: 700;
     margin-top: 20px;
-    color: var(--accent-color);
+    color: #114B2C;
 }
 nav p{
     font-size: 24px;
     color: var(--accent-color);
 }
 nav a{
-    color: #000!important;
+    color: #114B2C!important;
 }
 nav ul{
     margin-top: 20px;
@@ -54,7 +54,7 @@ nav li{
     font-size: 24px;
 }
 nav mark{
-    color: #37b873!important;
+    color: #114B2C!important;
 }
 nav a img{
     height: 150px;
@@ -69,7 +69,7 @@ nav .icon-ss{
 }
 .nav-link.active { /*adding the scrollspy active tab under the nav tabs */
     background-color: transparent;
-    border-bottom: 2px solid #50d890; 
+    border-bottom: 2px solid #114B2C; 
 }
 .nav-box2 .nav-link.active{
     background-color: transparent;
@@ -78,11 +78,16 @@ nav .icon-ss{
 .nav-box2 a:hover{
     text-decoration: underline;
 }
+.offcanvas{
+    background-color: #50d890;
+}
 
 
 .main-body{
     height: 300vh;
     margin-left: -80px;
+    background-color: #000000;
+    color: #50d890;
 }
 
 /* CAROUSEL */
@@ -114,7 +119,7 @@ nav .icon-ss{
 }
 .slide-1-content button{
     margin-top: 80px;
-    color: white;
+    color: #50d890;
     border-radius: 0;
 }
 .slide-2-content{
@@ -141,17 +146,17 @@ nav .icon-ss{
     margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .about .about-content h2{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -162,8 +167,9 @@ nav .icon-ss{
 .about .card-box{
     height: 70%;
     width: 80%;
+    background-color: #50d890;
     margin-top: 100px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 36px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px;
 }
 .about i{
     display: inline-block;
@@ -179,8 +185,9 @@ nav .icon-ss{
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     margin-top: 25px;
+    font-weight: 700;
     margin-left: 15px;
-    color: #000;
+    color: #114B2C;
 }
 .card-row{
     flex-wrap: wrap!important;
@@ -211,17 +218,17 @@ nav .icon-ss{
     margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .service .service-content h2{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -233,11 +240,14 @@ nav .icon-ss{
     height: 350px;
     width: 270px;
     margin-top: 100px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: #50d890;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 36px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px;
+    transition: 0.2s;
 }
 .service-box p{
     margin-top: 40px;
     text-align: center;
+    color: #114B2C;
 }
 .service i{
     display: inline-block;
@@ -253,8 +263,9 @@ nav .icon-ss{
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     margin-top: 25px;
+    font-weight: 700;
     text-align: center;
-    color: #000;
+    color: #114B2C;
 }
 .service .cb-1{
     border-bottom: 2px solid #0d6efd;
@@ -269,6 +280,10 @@ nav .icon-ss{
 
 /* STATS */
 
+.stats{
+    background-color: #000000;
+    color: #50d890;
+}
 .sticky-bg-stats{
     background-image: linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)) , url(../assets/images/stats-img.jpg);
     background-position: center;
@@ -276,7 +291,7 @@ nav .icon-ss{
     background-attachment: fixed;
     height: 300px;
     margin-bottom: 100px;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 .sticky-bg-stats li{
     margin-top: 100px;
@@ -299,20 +314,20 @@ nav .icon-ss{
     padding-top: 5px;
 }
 .skills h4{
-    margin-top: 50px;
+    margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .skills .skill-content h2{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -350,17 +365,17 @@ nav .icon-ss{
     margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .education .education-content .my-quali{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -374,6 +389,8 @@ nav .icon-ss{
 }
 .accordion-item button{
     font-weight: 800;
+    color:#50d890;
+    background-color: #114B2C 
 }
 
 
@@ -514,20 +531,20 @@ input::placeholder {
     padding-top: 5px;
 }
 .work h4{
-    margin-top: 50px;
+    margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .work .work-content h2{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -548,20 +565,20 @@ input::placeholder {
     padding-top: 5px;
 }
 .contact h4{
-    margin-top: 50px;
+    margin-top: 80px;
     font-weight: 400;
     letter-spacing: 4px;
-    color: rgb(175, 174, 174);
+    color: #114B2C;
     font-size: 12px;
 }
 .contact .contact-content h2{
     font-weight: 800;
     font-family: "Josefin Sans", sans-serif;
     color:transparent;
-     text-shadow:3px 3px 0 #000000;
+     text-shadow:3px 3px 0 #114B2C;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #50d890;
     font-size: 26px;
     letter-spacing: 4px;
     margin-top: 30px;
@@ -580,16 +597,48 @@ input::placeholder {
     height: 55px;
     width: 350px;
     margin-top: 10px;
+    background-color: #114B2C;
 }
 .contact textarea{
     height: 75px;
     width: 350px;
     margin-top: 10px;
+    background-color: #114B2C;
+}
+.contact input:placeholder-shown{
+    padding-left: 10px;
+    color: #50d890;
+}
+.contact input:placeholder-shown:focus{
+    color: #114B2C;
+}
+.contact input:focus{
+    background-color: #50d890;
+    color: #114B2C;
+}
+.contact textarea:placeholder-shown{
+    padding-left: 10px;
+    color: #50d890;
+    padding-top: 10px;
+}
+.contact textarea:placeholder-shown:focus{
+    color: #114B2C;
+}
+.contact textarea:focus{
+    background-color: #50d890;
+    color: #114B2C;
 }
 .contact a{
     color: #50d890;
 } 
 .contact button{
     margin-top: 10px;
+    background-color: #114B2C;
+    color: #50d890;
+    border-radius: 0px;
+    border: 0;
+}
+.contact button:hover{
     background-color: #50d890;
+    color: #114B2C;
 }
