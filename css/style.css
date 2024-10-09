@@ -11,7 +11,6 @@
 }
 body{
     font-family: "Josefin Sans", sans-serif;
-
     overflow-x: hidden;
 }
 .container-custom{
@@ -83,9 +82,7 @@ nav .icon-ss{
 
 .main-body{
     height: 300vh;
-    /* padding-left: var(--nav-width); */
     margin-left: -80px;
-
 }
 
 /* CAROUSEL */
@@ -238,9 +235,13 @@ nav .icon-ss{
     margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+.service-box p{
+    margin-top: 40px;
+    text-align: center;
+}
 .service i{
     display: inline-block;
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 15px;
     margin-top: 30px;
 }
@@ -252,7 +253,7 @@ nav .icon-ss{
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 15px;
+    text-align: center;
     color: #000;
 }
 .service .cb-1{
@@ -585,6 +586,9 @@ input::placeholder {
     width: 350px;
     margin-top: 10px;
 }
+.contact a{
+    color: #50d890;
+} 
 .contact button{
     margin-top: 10px;
     background-color: #50d890;
