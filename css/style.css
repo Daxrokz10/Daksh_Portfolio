@@ -642,3 +642,19 @@ input::placeholder {
     background-color: #50d890;
     color: #114B2C;
 }
+.contact-icon{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: #114B2C;
+    color: #50d890;
+}
+.contact-icon:hover , .contact-icon i:hover{
+    background-color: #50d890;
+    color: #114B2C;
+    transform: scale(1.1);
+}
+.contact-icon i{
+    font-size: 44px;
+    line-height: 100px;
+}
