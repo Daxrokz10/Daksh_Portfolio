@@ -393,55 +393,37 @@ nav .icon-ss{
 
 .bar-1{
     width: 95%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-2{
     width: 85%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
-.bar-3{
+.bar-3.animate{
     width: 85%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-4{
     width: 0%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-5{
     width: 5%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-6{
     width: 20%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-7{
     width: 0%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-8{
     width: 0%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-9{
     width: 0%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
 .bar-10{
     width: 0%;
-    animation: barmation 3s;
-    animation-delay: 10s;
 }
-
+.bar-1.in-view , .bar-2.in-view , .bar-3.in-view , .bar-4.in-view , .bar-5.in-view, .bar-6.in-view, .bar-7.in-view, .bar-8.in-view, .bar-9.in-view, .bar-10.in-view {
+    animation: barmation 3s;
+}
 
 
 /* EDUCATION */
