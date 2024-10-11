@@ -15,10 +15,10 @@ Frameworks and libraries: Tailwind, Bootstrap
 To get started, simply navigate through the folders and files in this repository. Each project has its own README file that provides more details on the project's objectives, technologies used, and outcomes.
 
 Tech Stack: <br>
-<code> HTML5 <br>
- CSS3 <br>
- JavaScript <br>
- React <br>
- Bootstrap <br> </code>
+<code>HTML5<br>
+ CSS3<br>
+ JavaScript<br>
+ React<br>
+ Bootstrap<br></code>
 
 I hope you enjoy exploring my portfolio!
