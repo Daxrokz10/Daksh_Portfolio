@@ -126,7 +126,7 @@ nav .icon-ss{
 /* CAROUSEL */
 
 .c-item-1{
-    background-image: url(../assets/images/carousel1.jpg);
+    background-image: url(../assets/images/aurora.gif);
     height: 100vh;
     background-size:cover ;
     overflow-y: hidden;
@@ -134,7 +134,7 @@ nav .icon-ss{
     animation: slow-in 4s;
 }
 .c-item-2{
-    background-image: url(../assets/images/carousel2.jpg);
+    background-image: url(../assets/images/surrogateself\ my\ design\ gif.gif);
     height: 100vh;
     background-size:cover ;
     overflow-y: hidden;
@@ -163,11 +163,11 @@ nav .icon-ss{
     left: 100px;
 }
 .slide-2-content h2{
-    color: white;
-    font-family: 'Playfair Display';
+    color: transparent;
     font-size: 50px;
+    -webkit-text-stroke: 2px #50d890;
     font-weight: 900;
-    text-shadow: 8px 6px 2px rgba(0, 0, 0, 0.23);
+    text-shadow: 8px 6px 2px rgba(127, 133, 129, 0.23);
 }
 
 
