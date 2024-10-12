@@ -7,8 +7,15 @@
     .offcanvas-btn{
         display: none;
     }  
+  /* NAV */
+        .navbar-brand-2 h1 {
+          font-weight: 700;
+        }
+    
+        nav li {
+          font-weight: 600;
+        }
 }
-
 @media (max-width:1520px){
 
 }
@@ -19,11 +26,11 @@
 @media (max-width:1399px){
         /* NAV */
     
-        .navbar-brand-2 h1{
-            font-size: 30px;
-            font-family: 'Playfair Display';
-            font-weight: 700;
-            margin-top: 20px;
+      .navbar-brand-2 h1{
+          font-size: 30px;
+          font-family: 'Playfair Display';
+          font-weight: 700;
+          margin-top: 20px;
         }
         nav p{
             font-size: 18px;
