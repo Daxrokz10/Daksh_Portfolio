@@ -114,6 +114,9 @@ nav .icon-ss{
 .offcanvas{
     background-color: #50d890;
 }
+.offcanvas button{
+    transform: translateX(100px);
+}
 
 
 .main-body{

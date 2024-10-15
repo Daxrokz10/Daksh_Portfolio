@@ -107,7 +107,11 @@
 /* SM */
 
 @media (max-width:768px){
-  
+  /* HTML */
+  html{
+    background-color: black;
+  }
+
   /* ABOUT */
   
   .about-content{
@@ -186,6 +190,9 @@
     margin-left: 70px;
     height: 120vh;
   }
+  .right-box{
+    width: 700px;
+  }
   
 
   /* CONTACT */
@@ -199,6 +206,10 @@
 
 @media (max-width:576px){
   
+  /* NAV */
+  .nav-box2{
+    width: 25%;
+}
   
   /* ABOUT  */
 
@@ -258,4 +269,12 @@
 
 @media (max-width:410px){
 
+  /* CAROUSEL */
+
+  .slide-1-content{
+    margin-left: 20px;
+  }
+  .slide-2-content{
+    margin-left: 40px;
+  }
 }
