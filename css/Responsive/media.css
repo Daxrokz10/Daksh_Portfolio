@@ -54,6 +54,13 @@
 
 @media (max-width:1199px){
 
+  /* WORK */
+
+  .work-snapshots embed{
+    width: 725px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
 
 }
 
@@ -192,6 +199,7 @@
 
 @media (max-width:576px){
   
+  
   /* ABOUT  */
 
   .about-content{
@@ -237,6 +245,13 @@
     margin-left: 150px;
   }
 
+  /* WORK */
+
+    .work-snapshots embed{
+      width: 410px;
+      margin-left: 150px;
+      margin-top: 40px;
+  }
 }
 
 /* XXS */
