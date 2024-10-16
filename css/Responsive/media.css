@@ -17,7 +17,13 @@
         }
 }
 @media (max-width:1520px){
-
+  
+  /* STATS */
+  
+  .sticky-bg-stats{
+  
+    margin-top: 0px;
+}
 }
 
 
@@ -47,6 +53,13 @@
         height: 130px;
         width: 130px;
     }
+
+    /* STATS */
+
+  .sticky-bg-stats{
+  
+    margin-top: 0px;
+}
     
 }
 
@@ -62,6 +75,12 @@
     margin-top: 40px;
 }
 
+  /* STATS */
+
+  .sticky-bg-stats{
+  
+    margin-top: 0px;
+}
 }
 
 /* MD */
