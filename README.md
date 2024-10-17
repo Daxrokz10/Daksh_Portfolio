@@ -18,7 +18,6 @@ Tech Stack: <br>
 <code>HTML5<br>
  CSS3<br>
  JavaScript<br>
- React<br>
  Bootstrap<br></code>
 
 I hope you enjoy exploring my portfolio!
