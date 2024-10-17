@@ -2,7 +2,7 @@ DEPLOY LINK : https://portfolio-daksh.netlify.app
 
 <h1>Welcome to My Portfolio!</h1>
 
-This portfolio showcases my skills and experience in <code>Web Development.</code>It's a collection of projects, achievements, and learnings that demonstrate my capabilities and passion for creating innovative and user-friendly experiences.
+This portfolio showcases my skills and experience in <code>Web Development</code>.It's a collection of projects, achievements, and learnings that demonstrate my capabilities and passion for creating innovative and user-friendly experiences.
 
 What You'll Find Here
 Projects: A selection of my most notable projects, including:
@@ -18,7 +18,6 @@ Tech Stack: <br>
 <code>HTML5<br>
  CSS3<br>
  JavaScript<br>
- React<br>
  Bootstrap<br></code>
 
 I hope you enjoy exploring my portfolio!
