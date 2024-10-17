@@ -15,6 +15,12 @@
         nav li {
           font-weight: 600;
         }
+  
+  /* WORK */
+
+  .work button{
+    transform: translateX(480px);
+  }
 }
 @media (max-width:1520px){
   
@@ -23,6 +29,12 @@
   .sticky-bg-stats{
   
     margin-top: 0px;
+}
+
+/* WORK */
+
+.work button{
+  transform: translateX(400px);
 }
 }
 
@@ -121,6 +133,11 @@
 .c-item-2{
   background-position: center;
 }
+/* WORK */
+
+.work button{
+  transform: translateX(300px);
+}
 }
 
 /* SM */
@@ -182,6 +199,9 @@
     width: 725px;
     margin-left: 40px;
     margin-top: 40px;
+}
+.work button{
+  transform: translateX(100px);
 }
 
   /* CONTACT */

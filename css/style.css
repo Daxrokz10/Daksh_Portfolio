@@ -628,6 +628,9 @@ input::placeholder {
     width: 500px;
     height: 400px;
 }
+.work button{
+    transform: translateX(380px);
+}
 
 
 /* CONTACT */
