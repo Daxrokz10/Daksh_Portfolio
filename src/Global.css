@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --titlebar-bg: #011627;
+}
+
+/* TITLE BAR CSS  */
+
+.titlebar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 8px;
+  background-color: #011627;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.titlebar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.titlebar-left img {
+  margin-top: -2px;
+}
+
+.titlebar-list {
+  display: flex;
+  gap: 12px;
+  margin-top: 11px;
+}
+
+.titlebar-list p{
+  cursor: pointer;
+}
+
+.titlebar-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.titlebar-windowButtons {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.titlebar-windowButtons span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.yellow { background: #f1fa8c; }
+.green  { background: #50fa7b; }
+.red    { background: #ff5555; }
+
+@media (max-width: 768px) {
+  .titlebar-list {
+    display: none;
+  }
+}
