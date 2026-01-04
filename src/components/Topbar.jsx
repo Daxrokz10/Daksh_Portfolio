@@ -1,4 +1,5 @@
 import React from 'react'
+// import { VscVscode } from "react-icons/vsc";
 import '../Global.css'
 
 const Topbar = () => {
@@ -13,6 +14,12 @@ const Topbar = () => {
           width={15}
           height={15}
         />
+        {/* <VscVscode
+          src="/vscode-icon.png"
+          alt="VSCode-icon"
+          width={15}
+          height={15}
+        /> */}
         <div className="titlebar-list">
           <p>File</p>
           <p>Edit</p>
