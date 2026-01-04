@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import Explorer from './components/Explorer';
 import Tabs from './components/Tabs';
+import Editor from './components/Editor';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Explorer/>
       <div style={{width:"100%"}}>
         <Tabs/>
+        <Editor/>
       </div>
     </div>
     </>

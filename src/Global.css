@@ -11,8 +11,7 @@
   --explorer-border: #161a1d;
 }
 
-/* TITLE BAR CSS  */
-
+/* TITLE BAR CSS */
 .titlebar {
   position: relative;
   display: flex;
@@ -77,10 +76,7 @@
   background: #ff5555;
 }
 
-
-
 /* SIDEBAR */
-
 aside {
   background-color: var(--sidebar-bg);
   width: 3.5vw;
@@ -102,7 +98,6 @@ aside .sidebar-icon-container {
 }
 
 /* EXPLORER */
-
 .explorer {
   background-color: var(--explorer-bg);
   width: 13vw;
@@ -110,7 +105,8 @@ aside .sidebar-icon-container {
   border-right: 1px solid var(--explorer-border);
   color: rgb(225, 228, 232);
 }
-.explorer .explorer-title{
+
+.explorer .explorer-title {
   padding: 1rem .75rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -118,10 +114,12 @@ aside .sidebar-icon-container {
   letter-spacing: 1px;
   margin-bottom: .75rem;
 }
-.explorer-name{
+
+.explorer-name {
   margin-top: -20px;
 }
-.explorer-name p{
+
+.explorer-name p {
   text-transform: uppercase;
   font-weight: 700;
   font-size: .8rem;
@@ -131,7 +129,8 @@ aside .sidebar-icon-container {
   cursor: pointer;
   padding: 0 .5rem;
 }
-.explorer-name .chevron{
+
+.explorer-name .chevron {
   margin-top: -15px;
   font-size: 12px;
 }
@@ -164,6 +163,7 @@ aside .sidebar-icon-container {
   width: 16px;
   height: 16px;
 }
+
 .explorer-name {
   cursor: pointer;
   padding: 6px 10px;
@@ -188,15 +188,13 @@ aside .sidebar-icon-container {
 /* FILE CONTAINER ANIMATION */
 .explorer-files {
   overflow: hidden;
-  transition: 
-  max-height 0.25s ease,
-  opacity 0.2s ease,
-  transform 0.2s ease;
+  transition: max-height 0.25s ease, opacity 0.2s ease, transform 0.2s ease;
   transform-origin: top;
 }
 
 .explorer-files.show {
-  max-height: 500px; /* large enough to fit files */
+  max-height: 500px;
+  /* large enough to fit files */
   opacity: 1;
   transform: translateY(0);
 }
@@ -209,32 +207,49 @@ aside .sidebar-icon-container {
 }
 
 /* TABS */
-
-.tabs{
-  
+.tabs {
+  background: #1f2428;
 }
-.tab{
+
+.tabs a {
+  text-decoration: none;
+}
+
+.tab {
+  padding: .5rem 1.25rem;
+  background: #1f2428;
+  color: #ececec;
   display: flex;
   align-items: center;
-  background-color: #24292e;
+  border: 1px solid #24292e;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: .9rem;
+  cursor: pointer;
 }
-.tab p{
+
+.tab p {
   margin: 0;
   line-height: 1;
 }
-.tab img{
+
+.tab img {
   width: 18px;
   height: 18px;
   margin-right: 8px;
 }
 
+.editor {
+  background-color: #161a1d;
+  height: calc(100vh - 30px - 61px);
+}
 
 /* MEDIA */
 @media (max-width: 768px) {
-    .titlebar-list {
-      display: none;
-    }
-    .explorer{
-      display: none;
-    }
+  .titlebar-list {
+    display: none;
   }
+
+  .explorer {
+    display: none;
+  }
+}
