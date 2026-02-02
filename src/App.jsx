@@ -4,6 +4,7 @@ import Topbar from './components/Topbar';
 import Explorer from './components/Explorer';
 import Tabs from './components/Tabs';
 import Editor from './components/Editor';
+import Bottombar from './components/Bottombar';
 
 
 function App() {
@@ -11,15 +12,16 @@ function App() {
 
   return (
     <>
-    <Topbar />
-    <div className="main-layout d-flex">
-      <Sidebar />
-      <Explorer/>
-      <div style={{width:"100%"}}>
-        <Tabs/>
-        <Editor/>
+      <Topbar />
+      <div className="main-layout d-flex">
+        <Sidebar />
+        <Explorer />
+        <div style={{ width: "100%" }}>
+          <Tabs />
+          <Editor />
+        </div>
       </div>
-    </div>
+      <Bottombar />
     </>
   )
 }

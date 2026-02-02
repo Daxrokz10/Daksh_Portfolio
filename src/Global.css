@@ -81,7 +81,7 @@ aside {
   background-color: var(--sidebar-bg);
   width: 3.5vw;
   min-width: 40px;
-  height: calc(100vh - 30px - 25px);
+  height: calc(100vh - 29px - 25px);
 }
 
 aside a {
@@ -240,7 +240,36 @@ aside .sidebar-icon-container {
 
 .editor {
   background-color: #161a1d;
-  height: calc(100vh - 30px - 61px);
+  height: calc(100vh - 29px - 61px);
+}
+
+/* FOOTER */
+.bottombar{
+  height: 25px;
+  background-color: var(--titlebar-bg);
+}
+.bottombar svg{
+  color: white;
+}
+.bottombar p{
+  margin: 0;
+  line-height: 1;
+  color: white;
+}
+.bottombar a{
+  color: white;
+  text-decoration: none;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+}
+.bottom-left-content{
+  color: white;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+.bottom-left-content div{
+  align-items: center;
 }
 
 /* MEDIA */
