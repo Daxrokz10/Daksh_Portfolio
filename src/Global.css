@@ -239,7 +239,7 @@ aside .sidebar-icon-container {
 }
 
 .editor {
-  background-color: #161a1d;
+  background-color: #000000;
   height: calc(100vh - 29px - 61px);
 }
 
@@ -247,6 +247,10 @@ aside .sidebar-icon-container {
 .bottombar{
   height: 25px;
   background-color: var(--titlebar-bg);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 .bottombar svg{
   color: white;
@@ -270,6 +274,12 @@ aside .sidebar-icon-container {
 }
 .bottom-left-content div{
   align-items: center;
+}
+
+/* PAGES */
+
+.home{
+  color: white;
 }
 
 /* MEDIA */
